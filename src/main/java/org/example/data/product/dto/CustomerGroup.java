@@ -1,0 +1,12 @@
+package org.example.data.product.dto;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+public class CustomerGroup {
+
+	private String coverage;
+	private String customerGroup;
+}
